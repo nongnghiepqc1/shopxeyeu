@@ -1,6 +1,75 @@
 body{
 	background-color: rgb(244, 248, 250);
 }
+
+/*** GENERAL ***/
+main .main-slide{
+	position: relative;
+	margin: 20px 0;
+	height: 360px;
+	width: 100%;
+	overflow: hidden;
+}
+main .main-slide .image{
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+main .main-slide:hover .image{
+    transform: scale(1.1);
+}
+
+main .main-slide img{
+	width: 100%;
+}
+main .main-slide .caption{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	background-color: rgba(33, 26, 26, 0.52);
+    border-radius: 10px;
+    padding: 40px;
+}
+main .main-slide .caption h2{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+main .main-slide .caption p{
+	color: white;
+	font-size: 13px;
+}
+main .main-slide .caption .list-category a{
+	color:  white;
+	text-decoration: none;
+	margin:  0 5px;
+	border:  2px solid white;
+	padding:  5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+main .main-slide .caption .list-category a:hover{
+	background-color: white;
+	color: #191919;
+}
+main .main-slide .caption .list-category a.active{
+	background-color: #dd3333;
+	border-color: #dd3333;
+	border-radius: 5px;
+}
+main .main-slide .caption .list-category a.active:hover{
+	color:  white;
+	box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+	border-color: rgb(0 0 0 / 20%);
+}
+
 /***** HEADER *****/
 
 header{
@@ -95,73 +164,6 @@ header .account span{
 	display: block;
 }
 /**** SLIDE ****/
-main .main-slide{
-	position: relative;
-	margin: 20px 0;
-	height: 360px;
-	width: 100%;
-	overflow: hidden;
-}
-main .main-slide .image{
-	background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: 50% 50%;
-    transition: all .5s;
-    width: 100%;
-    height: 100%;
-}
-main .main-slide:hover .image{
-    transform: scale(1.1);
-}
-
-main .main-slide img{
-	width: 100%;
-}
-main .main-slide .caption{
-	position: absolute;
-	top: 30%;
-	left: 25%;
-	background-color: rgba(33, 26, 26, 0.52);
-    border-radius: 10px;
-    padding: 40px;
-}
-main .main-slide .caption h2{
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 10px;
-	font-size: 20px;
-	font-weight: bold;
-}
-main .main-slide .caption p{
-	color: white;
-	font-size: 13px;
-}
-main .main-slide .caption .list-category a{
-	color:  white;
-	text-decoration: none;
-	margin:  0 5px;
-	border:  2px solid white;
-	padding:  5px 10px;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 12px;
-}
-main .main-slide .caption .list-category a:hover{
-	background-color: white;
-	color: #191919;
-}
-main .main-slide .caption .list-category a.active{
-	background-color: #dd3333;
-	border-color: #dd3333;
-	border-radius: 5px;
-}
-main .main-slide .caption .list-category a.active:hover{
-	color:  white;
-	box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
-	border-color: rgb(0 0 0 / 20%);
-}
-
 main .second-slide{
 	position: relative;
 	margin: 20px 0;
@@ -315,4 +317,279 @@ main .swiper .swiper-button-next:after, main .swiper .swiper-button-prev:after{
 }
 main .swiper:hover .swiper-button-next, main .swiper:hover .swiper-button-prev{
 	opacity: 1;
+}
+/*** PORMOTION *****/
+main .promotion{
+	margin-top: 30px;
+}
+main .promotion .promotion-detail .image-wrap .image{
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    transition: all .5s;
+    height: 100%;
+}
+main .promotion .promotion-detail:first-child .image-wrap:first-child,main .promotion .promotion-detail:last-child .image-wrap:last-child{
+	height: 60%;
+}
+main .promotion .promotion-detail:last-child .image-wrap:first-child,main .promotion .promotion-detail:first-child .image-wrap:last-child{
+	height: 40%;
+}
+main .promotion .promotion-detail {
+	height: 600px;
+}
+main .promotion .promotion-detail .image-wrap{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+main .promotion .promotion-detail .image-wrap:hover .image{
+	transform: scale(1.1);
+
+}
+main .promotion .image-wrap .image{
+	width: 100%;
+	height: 100%;
+}
+main .promotion .promotion-detail:first-child .caption{
+	position: absolute;
+	left: 50px;
+	top:  30%;
+	width: 60%;
+	color:  white;
+}
+main .promotion .promotion-detail:last-child .caption{
+	position: absolute;
+	right: 20px;
+	top:  30%;
+	width: 60%;
+	color:  white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+main .promotion .promotion-detail .caption h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+}
+main .promotion .promotion-detail .caption p{
+	font-size: 12px;
+}
+main .promotion .promotion-detail:first-child .caption .readmore a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	padding:  5px 10px;
+}
+main .promotion .promotion-detail:last-child .caption .readmore a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding:  7px 10px;
+	background-color: #dd3333;
+}
+main .promotion .promotion-detail:first-child .caption .readmore a:hover{
+	background-color: white;
+	color:  #191919;
+}
+main .promotion .promotion-detail:last-child .caption .readmore a:hover{
+	box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+}
+/**** LIST PRODUCT ****/
+main .product-category{
+	margin-top: 40px;
+}
+main .product-category .title{
+	background: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+main .product-category .title h2{
+	display: flex;
+}
+main .product-category .title h2 span{
+	background-color: #eb344f;
+    color: white;
+    font-size: 18px;
+    padding:  10px;
+    text-transform: uppercase;
+    position: relative;
+}
+main .product-category .title h2 span:after{
+	content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 18px solid transparent;
+    border-left: 15px solid;
+    border-left-color: #eb344f;
+    border-right: 0 solid transparent;
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+main .product-category .title a{
+	position: absolute;
+	right: 25px;
+	top: 5px;
+	color: #dd3333;
+	text-decoration: none;
+	border: 1px solid gray;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+main .product-category .title a:hover{
+	border-color: #dd3333;
+}
+
+/*** SECTION CATEGORY ****/
+main .section-category{
+	margin-top: 40px;
+}
+main .section-category .product-new-container{
+	background-color: white;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+main .section-category .product-new{
+	margin-bottom: 20px;
+}
+main .section-category .product-new img{
+	width: 100%;
+}
+main .section-category .product-new h3 a{
+	color: #383838;
+	text-decoration: none;
+	font-size: 14px;
+	display: flex;
+}
+main .section-category .product-new h3 a:hover{
+	color: #dd3333;
+}
+main .section-category .product-new-wrap{
+	position: relative;
+	height: 80px;
+}
+main .section-category .product-new .price{
+	position: absolute;
+	left:  0;
+	bottom:  0;
+}
+main .section-category .product-new .price del{
+	color: gray;
+	margin-right: 20px;
+}
+main .section-category .product-new .price ins{
+	text-decoration: none;
+	color: #dd3333;
+}
+/**** NEWS ****/
+main .news{
+	background-color: white;
+	margin-top: 40px;
+	padding:  10px 0;
+}
+main .news h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+main .news h2 span{
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 28px;
+}
+main .news h2 span:after{
+	content: "";
+    display: table;
+    clear: both;
+    background: url(../images/line.png);
+    width: 100%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding-top: 0;
+}
+main .news .news-item{
+	padding: 10px;
+}
+main .news .news-item img{
+	width: 100%;
+	border-radius: 5px;
+}
+main .news .news-item h3{
+	line-height: 16px;
+}
+main .news .news-item h3 a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #0a0a0a;
+}
+main .news .news-item h3 a:hover{
+	color: #dd3333;
+}
+main .news .news-item .post-meta{
+	font-size: 10px;
+}
+main .news .news-item p.excerp{
+	font-size: 13px;
+}
+main .news .news-item a.readmore{
+	color: #dd3333;
+	text-decoration: none;
+	font-size: 14px;
+}
+/**** FOOTER *****/
+footer{
+	margin-top: 40px;
+}
+footer h4{
+	color: #dd3333;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+footer .phone{
+	margin-bottom: 20px;
+}
+footer img{
+	width: 100px;
+	margin-bottom: 20px;
+}
+footer .social-list{
+	color: #999;
+	font-size: 13px;
+}
+footer .social-list a{
+	color: #999;
+	font-size: 13px;
+	margin-left: 10px;
+}
+footer .social-list a:hover{
+	color: #0a0a0a;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #191919;
+}
+footer ul li a:hover{
+	color: #dd3333;
+}
+footer .copyright{
+	font-size: 12px;
+	margin-top: 30px;
+	border-bottom: 10px solid gray;
 }
