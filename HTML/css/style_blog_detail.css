@@ -1,0 +1,485 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a:link , a:active, a:visited{
+	text-decoration: none;
+}
+body{
+	background-color:#F4F8FA !important;
+}
+.blog-detail-area .products-new{
+    border: 1px solid #efefef;
+    background: white;
+    margin-bottom: 25px;
+}
+.blog-detail-area .products-new .product-new img{
+    width: 100%;
+}
+.blog-detail-area .products-new .product-new{
+    padding: 10px 10px;
+    border-bottom: 1px solid #efefef;
+
+}
+.blog-detail-area .products-new .product-new:last-child{
+    
+    padding: 10px 10px;
+    border-bottom: none !important;
+}
+.blog-detail-area .products-new .product-new .product-new-wrap h3{
+    
+    line-height: 15px;
+}
+.blog-detail-area .products-new .product-new .product-new-wrap h3 >a{
+    font-size: 14px;
+    color: #212121;
+}
+.blog-detail-area .products-new .product-new .product-new-wrap del{
+    color: gray!important;
+    font-size: 14px !important;
+    margin-right: 5px   ;
+}
+.blog-detail-area .products-new .product-new .product-new-wrap ins{
+    color: #d51f16;
+    font-weight: normal;
+    text-decoration: none;
+}
+.blog-detail-area .products-new .title{
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    background: #d51f16;
+    padding: 9px 15px;
+    letter-spacing: 0;
+    color: white;
+    text-transform: none;
+    font-weight: 600;
+}
+
+
+
+
+
+.blog-detail-area .product-description{
+    padding: 10px 10px;
+}
+.blog-detail-area .product-description .content{
+    font-size: 110% !important;
+    line-height: 30px !important;
+}
+.blog-detail-area .product-description .title{
+    font-weight: bold;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+}
+.blog-detail-area .product-description .note{
+    padding: 0.4em;
+    font-size: .9em;
+    background: rgba(0,0,0,0.05);
+    font-style: italic;
+    text-align: center;
+}
+.blog-detail-area .product-description p >a{
+    color: #dd3333;
+}
+.blog-detail-area .product-description p >span{
+    color: #000;
+    font-weight: bold;
+}
+.blog-detail-area .product-description ul li{
+    list-style-type: disc;
+    font-weight: 400;
+    margin-bottom: 0.6em;
+    
+
+}
+.blog-detail-area .product-description .lienhe{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f1f1f1;
+    padding: 20px 20px;
+
+}
+.blog-detail-area .product-description .lienhe >span:nth-child(2){
+    max-width: 460px;
+    font-size: 107%;
+    font-weight: 300;
+}
+.blog-detail-area .product-description .lienhe >span:nth-child(1){
+    text-align: center;
+    color: #fff;
+    background-color: #dd3333;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+
+.blog-detail-area .product-description .title .tag-blog{
+    display: flex;
+    justify-content: start;
+}
+.blog-detail-area .product-description .title .tag-blog div >i{
+    margin-right: 5px;
+    font-size: 14px;
+    color: gray;
+}
+.blog-detail-area .product-description .title .tag-blog .time >i{
+    margin-left: 15px;
+}
+.blog-detail-area .product-description .title .tag-blog .view >span{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+
+}
+.blog-detail-area .product-description .title .tag-blog .blogs >i{
+    margin-left: 15px;
+}
+.blog-detail-area .product-description .title .tag-blog .time >a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0092ff;
+}
+.blog-detail-area .product-description .title .tag-blog .blogs >a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0092ff;
+}
+.blog-detail-area .product-description{
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.blog-detail-area .product-description .title >h3{
+    font-size: 22px;
+    color: #0a0a0a;
+    font-weight: 700;
+}
+.blog-detail-area .product-description .title{
+    margin-bottom: 30px;
+}
+.blog-detail-area .product-description .images{
+    position: relative;
+}
+.blog-detail-area .product-description .images .datetime{
+    position: absolute;
+    top: 7%;
+    z-index: 99;
+    background-color: #dd3333;
+    padding: 0px 10px;
+    display: grid;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.blog-detail-area .product-description .images .datetime span:nth-child(1){
+    margin-bottom: -5px;
+}
+.blog-detail-area .product-description .main .title{
+    font-size: 22px;
+    color: #0a0a0a;
+    font-weight: 700;
+}
+.blog-detail-area .product-description .main .content{
+    font-size: 18px;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+.blog-detail-area .product-description .main .seemore{
+    font-size: 15px;
+    color: #0a0a0a;
+    font-weight: 700;
+    margin-bottom: -3px;
+}
+.blog-detail-area .product-description .main ul >li{
+    
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #dd3333;
+}
+.blog-detail-area .product-description .main ul li >a{
+    
+    color: #0092ff;
+}
+.blog-detail-area .product-description .main .service-facebook{
+    
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.blog-detail-area .product-description .main .service-facebook >a{
+    padding: 3px 10px;
+    background-color: #077cd3;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+.blog-detail-area .product-description .main .social{
+    text-align: center;
+    border-bottom: 1px solid #e5e0e0;
+    padding-bottom: 30px;
+}
+.blog-detail-area .product-description .main .social a >i{
+    border: 2px solid  #0092ff;
+    color: #0092ff;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 13px;
+    transition: 0.4s ease-in-out all;
+}
+.blog-detail-area .product-description .main .social a:hover >i{
+    background-color: #037fdd;
+    color: #fff;
+}
+.blog-detail-area .product-description .main .danhmuc{
+    margin-top: 5px;
+    border-bottom: 2px solid #e5e0e0;
+    padding-bottom: 10px;
+
+}
+.blog-detail-area .product-description .main .danhmuc >label{
+    font-size: 13px;
+}
+.blog-detail-area .product-description .main .danhmuc >a{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.blog-detail-area .blog-relationship{
+    display: inline-block;
+    width: 100%;
+}
+.blog-detail-area .blog-relationship .card{
+    float: left;
+    width: 32%;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius: none;
+}
+.blog-detail-area .blog-relationship .card .card-body:hover{
+    cursor: pointer;
+}
+.blog-detail-area .blog-relationship .card .card-body:hover >a{
+    color: #dd3333;
+}
+.blog-detail-area .blog-relationship{
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.blog-detail-area .blogs-new-update >h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.blog-detail-area .blogs-new-update{
+    margin-top: 20px;
+}
+.blog-detail-area .blogs-new-update .blogs{
+    background-color: #fff;
+    padding: 10px 10px;
+}
+.blog-detail-area .blogs-new-update .blogs ul >li{
+    list-style-type: disc;
+    margin-bottom: 0.6em;
+    color: #053d68;
+    font-size: 0.9em;
+    font-weight: 400;
+    border-top: 1px dashed #c7e7ff;
+    padding-top: 5px;
+}
+.blog-detail-area .blogs-new-update .blogs ul li >a{
+   
+    color: #0764ab;
+}
+.blog-detail-area .blogs-new-update .blogs ul li >a:hover{
+   text-decoration:underline;
+}
+.blog-detail-area .comment{
+    background-color: #fff;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.blog-detail-area .comment >h3{
+    font-size: 22px;
+    color: #0a0a0a;
+    font-weight: 700;
+}
+.blog-detail-area .comment div >label{
+    font-size: 14px;
+    color: #0a0a0a;
+    font-weight: 700;
+}
+.blog-detail-area .comment div >textarea{
+    height: 150px;
+}
+.blog-detail-area .comment .form-gr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.blog-detail-area .comment .form-submit{
+    margin-top: 20px;
+    
+}
+.blog-detail-area .comment .form-submit .submit-comment{
+    background-color: #dd3333 !important;
+    border-radius: 20px !important ;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    border: none;
+    
+}
+.blog-detail-area{
+    margin-bottom: 65px;
+}
+.blog-detail-area .search .input-group >input{
+    border: 1px solid #dd3333;
+}
+.blog-detail-area .search .input-group .btn-search{
+    background-color: #dd3333;
+    color: #fff;
+    border: 1px solid #dd3333;
+}
+
+
+
+/*BLOG********************************************************/
+.blog-area .search .input-group >input{
+    border: 1px solid #dd3333;
+}
+.blog-area .search .input-group .btn-search{
+    background-color: #dd3333;
+    color: #fff;
+    border: 1px solid #dd3333;
+}
+.blog-area .blog-relationship{
+    display: inline-block;
+    width: 100%;
+}
+.blog-area .blog-relationship .card{
+    float: left;
+    width: 45%;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border: none;
+}
+.blog-area .blog-relationship .card .card-body:hover{
+    cursor: pointer;
+}
+.blog-area .blog-relationship .card .card-body .line{
+    color:#0a0a0a;
+    font-size: 18px;
+}
+.blog-area .blog-relationship .card .card-body .line:hover{
+    color: #dd3333;
+    text-decoration: underline;
+}
+.blog-area .blog-relationship .card{
+    background-color: #fff;
+    padding: 20px 20px;
+}
+.blog-area .blog-relationship .card .card-body .text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #0a0a0a;
+    margin-top: 10px;
+}
+.blog-area .blog-relationship .card .card-body .see_more{
+    color: #dd3333;
+}
+
+.blog-area .products-new{
+    border: 1px solid #efefef;
+    background: white;
+    margin-bottom: 25px;
+}
+.blog-area .products-new .product-new img{
+    width: 100%;
+}
+.blog-area .products-new .product-new{
+    padding: 10px 10px;
+    border-bottom: 1px solid #efefef;
+
+}
+.blog-area .products-new .product-new:last-child{
+    
+    padding: 10px 10px;
+    border-bottom: none !important;
+}
+.blog-area .products-new .product-new .product-new-wrap h3{
+    
+    line-height: 15px;
+}
+.blog-area .products-new .product-new .product-new-wrap h3 >a{
+    font-size: 14px;
+    color: #212121;
+}
+.blog-area .products-new .product-new .product-new-wrap del{
+    color: gray!important;
+    font-size: 14px !important;
+    margin-right: 5px   ;
+}
+.blog-area .products-new .product-new .product-new-wrap ins{
+    color: #d51f16;
+    font-weight: normal;
+    text-decoration: none;
+}
+.blog-area .products-new .title{
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    background: #d51f16;
+    padding: 9px 15px;
+    letter-spacing: 0;
+    color: white;
+    text-transform: none;
+    font-weight: 600;
+}
+.blog-area  .datetime{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    z-index: 99;
+    background-color: #dd3333;
+    padding: 0px 7px;
+    display: grid;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.blog-area  .datetime span:nth-child(1){
+    margin-bottom: -5px;
+}
+@media(max-width: 1400px){
+	/*** HEADER ****/
+	.blog-area .blog-relationship .card{
+        float: left;
+        width: 43%;
+        margin-left: 15px;
+        margin-right: 30px;
+        margin-bottom: 15px;
+        border: none;
+    }
+}
