@@ -41,3 +41,11 @@ var swiper = new Swiper("#product-category", {
     },
   });
 
+var myCollapsible = document.getElementById('category-child')
+
+myCollapsible.addEventListener('shown.bs.collapse',function(){
+  $(".categories button i").addClass('fa-angle-up').removeClass('fa-angle-down');
+});
+myCollapsible.addEventListener('hidden.bs.collapse',function(){
+  $(".categories button i").addClass('fa-angle-down').removeClass('fa-angle-up');
+});
