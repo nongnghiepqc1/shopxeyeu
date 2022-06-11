@@ -1,8 +1,186 @@
+/*=============================================
+=            CSS Index            =
+=============================================
+
+    -> Default styles
+    -> Header
+    -> Footer
+    -> Sidebar
+    -> Social Link
+    -> Backgrounds
+    -> Buttons
+    -> Scroll top
+    -> Search overlay
+    -> Slider
+    -> Banner
+    -> Feature icon
+    -> Sectiuon title
+    -> Newsletter
+    -> Product
+    -> Counter
+    -> Progressbar
+    -> Quickview
+    -> Newsletter
+    -> Breadcrumb
+    -> Pagination
+    -> Cart
+    -> Checkout
+    -> My account
+    -> Login register
+    -> FAQ
+    -> Compare
+    -> Contact
+    -> About us
+    -> Blog
+    -> Shop
 
 
+/*=====  End of CSS Index  ======*/
+/*=============================================
+=            Theme default CSS            =
+=============================================*/
+/*-- Google Font --*/
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700|Montserrat:400,600,700');
+*,
+*::after,
+*::before
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
+html,
+body
+{
+    height: 100%;
+}
 
+body
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
 
+    position: relative;
+
+    visibility: visible;
+
+    color: #333;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+
+    margin-top: 0; 
+
+    color: #333;
+}
+
+h1
+{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h2
+{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+h3
+{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h4
+{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h5
+{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h6
+{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+p:last-child
+{
+    margin-bottom: 0;
+}
+
+a,
+button
+{
+    line-height: inherit;
+
+    display: inline-block;
+
+    cursor: pointer; 
+    text-decoration: none;
+
+    color: inherit;
+}
+
+a,
+button,
+img,
+input,
+span
+{
+    -webkit-transition: all .1s ease 0s;
+            transition: all .1s ease 0s;
+}
+
+*:focus
+{
+    outline: none !important;
+}
+
+a:focus
+{
+    text-decoration: none; 
+
+    color: inherit;
+    outline: none;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+button,
+input[type='submit']
+{
+    cursor: pointer;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0; 
+
+    list-style: outside none none;
+}
 
 /*-- Tab Content & Pane Fix --*/
 .tab-content
@@ -14,6 +192,7 @@
     display: block;
     visibility: hidden;
     overflow: hidden;
+
     max-width: 100%;
     height: 0;
 
@@ -6610,7 +6789,12 @@ select
 }
 
 /*----------  product details  ----------*/
+.product-detail-content
+{
+    padding: 20px; 
 
+    border: 1px solid #ebebeb;
+}
 
 .tags .tag-title
 {
@@ -6646,11 +6830,12 @@ select
 
 .product-details-title
 {
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 30px; 
 
-    color: #0a0a0a;
+    color: #333;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px)
 {
@@ -6721,78 +6906,7 @@ select
     border-bottom: 1px solid #f0f0f0;
 }
 
-.quantity .quantity-title
-{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 48px; 
 
-    color: #222;
-}
-
-.pro-qty
-{
-    position: relative;
-
-    display: inline-block;
-
-    width: 100px;
-    height: 40px; 
-
-    border: 1px solid #ddd;
-}
-.pro-qty input
-{
-    width: 100%;
-    height: 100%;
-    padding-right: 25px;
-    padding-left: 20px; 
-
-    border: none;
-    text-align: center;
-}
-.pro-qty a
-{
-    font-size: 18px; 
-    font-weight: normal;
-    line-height: 20px;
-
-    position: absolute;
-
-    width: 20px;
-    height: 20px;
-    text-align: center;
-}
-.pro-qty a:hover
-{
-    color: #3a9943;
-}
-.pro-qty a.inc
-{
-    color: #666;
-
-    top: 0;
-    right: 0;
-    position: absolute;
-    height: 100%;
-    border-left: 1px solid #ddd;
-    padding-top: 8px;
-    background-color: #f9f9f9;
-}
-.pro-qty a.dec
-{
-    left: 0;
-    bottom: 0;
-    color: #666;
-    border-right: 1px solid #ddd;
-    background-color: #f9f9f9;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: absolute;
-    height: 100%;
-    padding-top: 8px;
-}
 
 .size
 {
@@ -11197,9 +11311,6 @@ h3.comment-counter
 }
 
 /*=====  End of shop  ======*/
-
-
-
 .fa-angle-left{
     font-size: 15px;
     color: #fff;
@@ -11818,4 +11929,82 @@ h3.comment-counter
     background-color: #dd3333;
     padding: 10px 40px;
     border-radius: 40px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a:link , a:active, a:visited{
+	text-decoration: none;
+}
+.quantity .quantity-title
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px; 
+
+    color: #222;
+}
+
+.pro-qty
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 100px;
+    height: 40px; 
+
+    border: 1px solid #ddd;
+}
+.pro-qty input
+{
+    width: 100%;
+    height: 100%;
+    padding-right: 25px;
+    padding-left: 20px; 
+    text-align: center;
+    border: none;
+}
+.pro-qty a
+{
+    font-size: 18px; 
+    font-weight: normal;
+    line-height: 20px;
+    position: absolute;
+    width: 25px;
+    height: 39px;
+
+    text-align: center;
+}
+.pro-qty a:hover
+{
+    color: #3a9943;
+}
+.pro-qty a.inc
+{
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-left: 1px solid #ddd;
+    padding-top: 9px;
+    background-color: #ede7e7;
+    color: #000;
+
+}
+.pro-qty a.dec
+{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    padding-top: 9px; 
+    border-right: 1px solid #ddd;
+    background-color: #ede7e7;
+    color: #000;
 }
