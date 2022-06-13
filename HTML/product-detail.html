@@ -17,266 +17,102 @@
     
 </head>
 <body>
-	<header class="fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col mobile-menu d-block d-sm-none">
-                    <button class="icon" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu-mobile" aria-labelledby="menu-mobile">
-                      <div class="offcanvas-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                      <div class="offcanvas-body">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/garage.png" alt="category">
-                                    <span>Bảo vệ Xe</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-1">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-1">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                        <li><a href="#">Thiết bị chắn nắng</a></li>
-                                        <li><a href="#">Bảo vệ cửa xe, gương chiếu hậu</a></li>
-                                        <li><a href="#">Chống trày xước thân xe, bắc cửa xe</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-
-
-                                
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/promoting.png" alt="category">
-                                    <span>Chăm sóc xe</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-2">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-2">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                    <li><a href="#">Bơm lốp, hút bụi, khử mùi</a></li>
-                                    <li><a href="#">Chống ồn, cách âm</a></li>
-                                </ul>
-                                  </div>
-                                </div>
-                                
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/car.png" alt="category">
-                                    <span>Trang trí xe</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-3">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-3">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                        <li><a href="#">Trang trí ngoại thất</a></li>
-                                        <li><a href="#">Trang trí nội thất</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/steering-wheel.png" alt="category">
-                                    <span>Tiện ích xe</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-4">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-4">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                        <li><a href="#">Nội thất</a></li>
-                                        <li><a href="#">Giá đỡ, tẩu sạc, thiết bị điện tử</a></li>
-                                        <li><a href="#">Ví và dụng cụ chứa đồ</a></li>
-                                        <li><a href="#">Dụng cụ không thể thiếu</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/motocross.png" alt="category">
-                                    <span>Xe máy</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/desk.png" alt="category">
-                                    <span>Văn Phòng</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-5">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-5">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                    <li><a href="#">Giá đỡ laptop</a></li>
-                                </ul>
-                                  </div>
-                                </div>
-                                
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img src="images/info.png" alt="category">
-                                    <span>Thông tin</span>
-                                </a>
-                                <button class="toggle-button" data-bs-toggle="offcanvas" data-bs-target="#menu-child-6">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </button>
-                                <div class="offcanvas offcanvas-start menu-child" data-bs-backdrop="static" tabindex="-1" id="menu-child-6">
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"><i class="fa-solid fa-angle-left"></i>Bảo vệ xe</h5>
-                                  </div>
-                                  <div class="offcanvas-body small">
-                                    <ul class="toggle">
-                                        <li><a href="#">Hướng dẫn mua hàng</a></li>
-                                        <li><a href="#">Hướng dẫn thanh toán</a></li>
-                                        <li><a href="#">Chính sách đổi trả</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                
-                            </li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-                <div class="col logo">
-                    <a href="#"><img src="images/logo.png" alt="logo" /></a>
-                </div><!-- .logo -->
-                <div class="col search d-none d-sm-block">
-                    <form action="">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Nhập sản phẩm cần tìm...">
-                            <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </div>
-                    </form>
-                </div><!-- .search -->
-                <div class="col menu d-none d-sm-block">
-                    <ul class="nav">
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/garage.png" alt="category">
-                                <span>Bảo vệ Xe</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Thiết bị chắn nắng</a></li>
-                                <li><a class="dropdown-item" href="#">Bảo vệ cửa xe, gương chiếu hậu</a></li>
-                                <li><a class="dropdown-item" href="#">Chống trày xước thân xe, bắc cửa xe</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/promoting.png" alt="category">
-                                <span>Chăm sóc xe</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Bơm lốp, hút bụi, khử mùi</a></li>
-                                <li><a class="dropdown-item" href="#">Chống ồn, cách âm</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/car.png" alt="category">
-                                <span>Trang trí xe</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Trang trí ngoại thất</a></li>
-                                <li><a class="dropdown-item" href="#">Trang trí nội thất</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/steering-wheel.png" alt="category">
-                                <span>Tiện ích xe</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Nội thất</a></li>
-                                <li><a class="dropdown-item" href="#">Giá đỡ, tẩu sạc, thiết bị điện tử</a></li>
-                                <li><a class="dropdown-item" href="#">Ví và dụng cụ chứa đồ</a></li>
-                                <li><a class="dropdown-item" href="#">Dụng cụ không thể thiếu</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <img src="images/motocross.png" alt="category">
-                                <span>Xe máy</span>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/desk.png" alt="category">
-                                <span>Văn Phòng</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Giá đỡ laptop</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                <img src="images/info.png" alt="category">
-                                <span>Thông tin</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Hướng dẫn mua hàng</a></li>
-                                <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
-                                <li><a class="dropdown-item" href="#">Chính sách đổi trả</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- .menu -->
-                <div class="col account d-none d-sm-block">
-                    <a href="#">
-                        <img src="images/account.png" alt="category">
-                        <span>Đăng Nhập</span>
-                    </a>
-                </div>
-                <div class="col d-block d-sm-none">
-                    <div class="cart" data-bs-toggle="offcanvas" data-bs-target="#cart">
-                        <strong>0</strong>
-                    </div>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="cart">
-                      <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" data-bs-toggle="offcanvas">Giỏ hàng</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                      <div class="offcanvas-body small">
-                        <p>Chưa có sản phẩm trong giỏ hàng</p>
-                      </div>
-                </div>
-            </div>
-        </div>              
-    </header>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col logo">
+					<a href="#"><img src="images/logo.png" alt="logo" /></a>
+				</div><!-- .logo -->
+				<div class="col search">
+					<form action="">
+						<div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="Nhập sản phẩm cần tìm...">
+							<button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+						</div>
+					</form>
+				</div><!-- .search -->
+				<div class="col menu">
+					<ul class="nav">
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/garage.png" alt="category">
+								<span>Bảo vệ Xe</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Thiết bị chắn nắng</a></li>
+								<li><a class="dropdown-item" href="#">Bảo vệ cửa xe, gương chiếu hậu</a></li>
+								<li><a class="dropdown-item" href="#">Chống trày xước thân xe, bắc cửa xe</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/promoting.png" alt="category">
+								<span>Chăm sóc xe</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Bơm lốp, hút bụi, khử mùi</a></li>
+								<li><a class="dropdown-item" href="#">Chống ồn, cách âm</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/car.png" alt="category">
+								<span>Trang trí xe</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Trang trí ngoại thất</a></li>
+								<li><a class="dropdown-item" href="#">Trang trí nội thất</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/steering-wheel.png" alt="category">
+								<span>Tiện ích xe</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Nội thất</a></li>
+								<li><a class="dropdown-item" href="#">Giá đỡ, tẩu sạc, thiết bị điện tử</a></li>
+								<li><a class="dropdown-item" href="#">Ví và dụng cụ chứa đồ</a></li>
+								<li><a class="dropdown-item" href="#">Dụng cụ không thể thiếu</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">
+								<img src="images/motocross.png" alt="category">
+								<span>Xe máy</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/desk.png" alt="category">
+								<span>Văn Phòng</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Giá đỡ laptop</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle">
+								<img src="images/info.png" alt="category">
+								<span>Thông tin</span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Hướng dẫn mua hàng</a></li>
+								<li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+								<li><a class="dropdown-item" href="#">Chính sách đổi trả</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- .menu -->
+				<div class="col account">
+					<a href="#">
+						<img src="images/account.png" alt="category">
+						<span>Đăng Nhập</span>
+					</a>
+				</div>
+			</div>
+		</div>				
+	</header>
 	<main>
         <div class="breadcrumbs">
             <div class="container">
@@ -1434,68 +1270,68 @@
         </div>
 	</main>
 	<footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h4>Shop Xe Yêu</h4>
-                    <div class="address">
-                        <i class="fa-solid fa-house"></i> 
-                        <span> Cửa hàng: Safira Khang Điền - phường Phú Hữu, quận 9, TP.HCM</span>
-                    </div>
-                    <div class="phone">
-                        <i class="fa-solid fa-phone"></i> 
-                        <span> Đặt hàng trực tiếp / bảo hành :  0975.543.023</span>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <h4>Chấp nhận thanh toán</h4>
-                            <img src="images/payment.png" alt="">
-                            <div class="social-list">
-                                <span class="d-none d-sm-block">Kênh theo dõi : </span>
-                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <h4>Bản đồ chỉ đường</h4>
-                            <a href="#">Xem chi tiết bản đồ</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-2">
-                    <h4>Thông tin</h4>
-                    <ul>
-                        <li><a href="#">Liên Hệ</a></li>
-                        <li><a href="#">Giỏ hàng của bạn</a></li>
-                    </ul>
-                    <h4>Hỗ trợ</h4>
-                    <ul>
-                        <li><a href="#">Tổng đài 0975.543.023</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-md-2">
-                    <h4>Hướng dẫn</h4>
-                    <ul>
-                        <li><a href="#">Hướng dẫn mua hàng</a></li>
-                        <li><a href="#">Hướng dẫn thanh toán</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-md-2">
-                    <h4>Chính sách</h4>
-                    <ul>
-                        <li><a href="#">Chính sách bảo hành</a></li>
-                        <li><a href="#">Chính sách hoàn tiền, đổi trả hàng</a></li>
-                        <li><a href="#">Chính sách vận chuyển</a></li>
-                        <li><a href="#">Chính sách bảo mật</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            Bản quyền và nội dung thuộc quyền sở hữu của shopxeyeu.com Tất cả mọi sao chép phải được sự đồng ý bằng văn bản của shopxeyeu.com
-        </div>              
-    </footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-5">
+					<h4>Shop Xe Yêu</h4>
+					<div class="address">
+						<i class="fa-solid fa-house"></i> 
+					 	<span> Cửa hàng: Safira Khang Điền - phường Phú Hữu, quận 9, TP.HCM</span>
+					</div>
+					<div class="phone">
+						<i class="fa-solid fa-phone"></i> 
+					 	<span> Đặt hàng trực tiếp / bảo hành :  0975.543.023</span>
+					</div>
+					<div class="row">
+						<div class="col">
+							<h4>Chấp nhận thanh toán</h4>
+							<img src="images/payment.png" alt="">
+							<div class="social-list">
+								<span>Kênh theo dõi : </span>
+								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#"><i class="fa-solid fa-phone"></i></a>
+								<a href="#"><i class="fa-brands fa-youtube"></i></a>
+							</div>
+						</div>
+						<div class="col">
+							<h4>Bản đồ chỉ đường</h4>
+							<a href="#">Xem chi tiết bản đồ</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<h4>Thông tin</h4>
+					<ul>
+						<li><a href="#">Liên Hệ</a></li>
+						<li><a href="#">Giỏ hàng của bạn</a></li>
+					</ul>
+					<h4>Hỗ trợ</h4>
+					<ul>
+						<li><a href="#">Tổng đài 0975.543.023</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Hướng dẫn</h4>
+					<ul>
+						<li><a href="#">Hướng dẫn mua hàng</a></li>
+						<li><a href="#">Hướng dẫn thanh toán</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Chính sách</h4>
+					<ul>
+						<li><a href="#">Chính sách bảo hành</a></li>
+						<li><a href="#">Chính sách hoàn tiền, đổi trả hàng</a></li>
+						<li><a href="#">Chính sách vận chuyển</a></li>
+						<li><a href="#">Chính sách bảo mật</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			Bản quyền và nội dung thuộc quyền sở hữu của shopxeyeu.com Tất cả mọi sao chép phải được sự đồng ý bằng văn bản của shopxeyeu.com
+		</div>				
+	</footer>
 	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script src="vendors/swiper/swiper-bundle.js"></script>
 	<script src="js/custom.js"></script>
